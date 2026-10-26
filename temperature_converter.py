@@ -12,7 +12,7 @@ while True:  # asks until the user types a valid number
     if len(text) == 0:
         print("You must type something. Try again.")
     else:
-        # If the user typed a number with a "C" at the end, remove it
+        # if the user typed a number with a "C" at the end, remove it
         if text.upper().endswith("C"):
             text = text.upper().replace("C", "")
  
